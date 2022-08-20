@@ -48,3 +48,4 @@ for (int i = 0; i < arr.Length; i++)
 }
 Console.WriteLine("Вы создали массив:");
 Console.Write(string.Join(", ", arr));
+
