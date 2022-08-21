@@ -1,19 +1,22 @@
 Рекомендуемая литература с семинаров GB:
 
-• «C# для школьников» Мартин Дрейер
+* [«C# для школьников» Мартин Дрейер](https://drive.google.com/file/d/1hIUYHkkMjKEqdfApziC43LSDAxWqZVtT/view?usp=sharing)
 
-• «Язык программирования C# и платформа .NET» Троелсен Эндрю Джепикс Филипп
+* [«Язык программирования C# и платформа .NET» Троелсен Эндрю Джепикс Филипп](https://drive.google.com/file/d/1j4Hx4CNOG7uRFDP0_mGES2ZxSzLZ4Btd/view?usp=sharing)
 
-• «ASP.NET Core. Разработка приложений» Джеймс Чамберс Дэвид Пэкетт Саймон Тиммс
+* [«ASP.NET Core. Разработка приложений» Джеймс Чамберс Дэвид Пэкетт Саймон Тиммс](https://drive.google.com/file/d/1u5fBqEe-FmNgkbCevWZ5JxxTrVfJkG1d/view?usp=sharing)
 
-• «C# Полное руководство», Шилдт Г.
+* [«C# Полное руководство», Шилдт Г.](https://drive.google.com/file/d/1YGRLd_mKV2Hqy8DCnKEI8fZ7DElZhigQ/view?usp=sharing)
 
-• «Программирование на C# для начинающих. Особенности языка», Васильев Алексей Николаевич
+* [«Программирование на C# для начинающих. Особенности языка», Васильев Алексей Николаевич](https://drive.google.com/file/d/1ydGKlSxF0p-4yCqPz3jNpGAnch3AT8Sp/view?usp=sharing)
 
-• «Разработка обслуживаемых программ на языке C#», Джуст Виссер
+* [«Разработка обслуживаемых программ на языке C#», Джуст Виссер](https://drive.google.com/file/d/14ya7eWqjhtJaiNuyJ_0qAqmydBTVe5iJ/view?usp=sharing)
 
-• «Математические основы машинного обучения и прогнозирования», В. В. Вьюгин
+* [«Математические основы машинного обучения и прогнозирования», В. В. Вьюгин](https://drive.google.com/file/d/1hZ7yonCo2gVs5HyZmnKahWD_W1h6rFHr/view?usp=sharing)
 
+* [CLR via C#. Программирование на платформе Microsoft .NET Рихтер Дж.](https://drive.google.com/file/d/1BhOreW_fUnNB0i-GKGlJBnzAqpPm67hR/view?usp=sharing)
+
+* [Cправочное руководство по C#](https://drive.google.com/file/d/12tjZr6o-S1cwXBjiKcoIT1WFdutSCYuq/view?usp=sharing)
 
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
 :---:|:---:|:---:|:---:|:---:
