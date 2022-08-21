@@ -15,13 +15,14 @@
 • «Математические основы машинного обучения и прогнозирования», В. В. Вьюгин
 
 
-№ урока|Иван Линцов|Клим Гордеев|Сергей Демин|
-:---:|:---:|:---:|:---:
-Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)| |
-|Урок 2|[YouTube](https://youtu.be/LME7fv4OeWQ)|[YouTube](https://youtu.be/L3MIW7Letb8)| |
-|Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)| |
-|Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)| |
+№ урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
+:---:|:---:|:---:|:---:|:---:
+Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)|[YouTube](https://youtu.be/aPpRbGPBxJk)|
+|Урок 2|[YouTube](https://youtu.be/LME7fv4OeWQ)|[YouTube](https://youtu.be/L3MIW7Letb8)| |[YouTube](https://youtu.be/9cWm6nze29M)
+|Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)| |[YouTube](https://youtu.be/GrcKmjz8APE)
+|Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)| |[YouTube](https://youtu.be/Z95dc5e1Sb8)
 |Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)| |
+
 
 
 [Zoom1_1]:(https://gbcdn.mrgcdn.ru/uploads/record/204263/attachment/c6d49798fe20fdee2b76b7553fa43bcb.mp4)

@@ -7,6 +7,9 @@ Console.WriteLine(string.Join(", ", arr));
 // ввод целочисленного значения с клавиатуры
 int number = Convert.ToInt32(Console.ReadLine())!;
 
+// 
+Console.ReadLine().Split().Select(Convert.ToInt32).ToArray();
+
 // int number = int.Parse(Console.ReadLine());
 string inputString = Console.ReadLine()!;
 int number = int.Parse(inputString);
