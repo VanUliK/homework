@@ -4,15 +4,25 @@
 // 8 -> 36
 
 Console.WriteLine("Введите A");
-int A = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 
 int sum = 0;
-for (int i = 0; i < A; i++)
+for (int i = 0; i < a; i++)
 {
     sum = sum + i;
     //sum += i;
 }
-Console.WriteLine(A + sum);
+Console.WriteLine(a + sum);
 
+// Второй вариант
+
+int GetSum(int a)
+{
+    return a * (a + 1) / 2;
+    // int sum = a * (a + 1) / 2;
+    // return sum;
+}
+
+Console.WriteLine(GetSum(a));
 
 
