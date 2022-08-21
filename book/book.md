@@ -17,11 +17,11 @@
 
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|
 :---:|:---:|:---:|:---:
-Урок 1|[Zoom1_1]:(https://gbcdn.mrgcdn.ru/uploads/record/204263/attachment/c6d49798fe20fdee2b76b7553fa43bcb.mp4)<br>[YouTube1_1]:(https://youtu.be/cyz89oRUcQo)|[Zoom][Zoom1_2]<br>[YouTube][YouTube1_2]|[Zoom][Zoom1_3]<br>[YouTube][YouTube1_3]|
-Урок 2|[Zoom][Zoom2_1]<br>[YouTube][YouTube2_1]|[Zoom][Zoom2_2]<br>[YouTube][YouTube2_2]| |
-Урок 3|[Zoom][Zoom3_1]<br>[YouTube][YouTube3_1]|[Zoom][Zoom3_2]<br>[YouTube][YouTube3_2]| |
-Урок 4|[Zoom][Zoom4_1]<br>[YouTube][YouTube4_1]|[Zoom][Zoom4_2]<br>[YouTube][YouTube4_2]| |
-Урок 5|[Zoom][Zoom5_1]<br>[YouTube][YouTube5_1]|[Zoom][Zoom5_2]<br>[YouTube][YouTube5_2]| |
+Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube1_2]:(https://youtu.be/NMMF2RO22uw)|[YouTube1_3]:(https://youtu.be/4aBsIp1iM3g)| |
+|Урок 2|[YouTube2_1]:(https://youtu.be/LME7fv4OeWQ)|[YouTube2_2]:(https://youtu.be/L3MIW7Letb8)| |
+|Урок 3|[YouTube3_1]:(https://youtu.be/T2WlMecRFew)|[YouTube3_2]:(https://youtu.be/lcmiaGLTbcc)| |
+|Урок 4|[YouTube4_1]:(https://youtu.be/M_gAp7fbgQU)|[YouTube4_2]:(https://youtu.be/ghX8BGg2AKY)| |
+|Урок 5|[YouTube5_1]:(https://youtu.be/aWagc_yJIJc)|[YouTube1_2]:(https://youtu.be/NMMF2RO22uw)| |
 
 
 [Zoom1_1]:(https://gbcdn.mrgcdn.ru/uploads/record/204263/attachment/c6d49798fe20fdee2b76b7553fa43bcb.mp4)
