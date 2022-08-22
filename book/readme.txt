@@ -19,4 +19,8 @@ git remote add origin https://github.com/VanUliK/homework.git
 git branch -M main
 git push -u origin main
 
+//округлить массив до 2ух символов после запятой
+Console.Write($"{string.Join(", ", array.Select(x => Math.Round(x, 2)))}");
+
+
 
