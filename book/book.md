@@ -18,6 +18,9 @@
 
 * [Cправочное руководство по C#](https://drive.google.com/file/d/12tjZr6o-S1cwXBjiKcoIT1WFdutSCYuq/view?usp=sharing)
 
+* [«Учись писать, читать и понимать алгоритмы», Паронджанов В. Д.](https://drive.google.com/file/d/10IuD40Xoe49HQDdfi1NFInb8sA1EJJXx/view?usp=sharing)
+* [«Алгоритмы компьютерной арифметики», Окулов С. М](https://drive.google.com/file/d/1IWi7y-lBK6G9dwVgl4IWRVRsGG9ah9yu/view?usp=sharing)
+
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
 :---:|:---:|:---:|:---:|:---:
 Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)|[YouTube](https://youtu.be/aPpRbGPBxJk)|
