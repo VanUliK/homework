@@ -21,7 +21,7 @@
 * [«Учись писать, читать и понимать алгоритмы», Паронджанов В. Д.](https://drive.google.com/file/d/10IuD40Xoe49HQDdfi1NFInb8sA1EJJXx/view?usp=sharing)
 * [«Алгоритмы компьютерной арифметики», Окулов С. М](https://drive.google.com/file/d/1IWi7y-lBK6G9dwVgl4IWRVRsGG9ah9yu/view?usp=sharing)
 
-[www.acmp.ru](www.acmp.ru)
+[www.acmp.ru](http://www.acmp.ru)
 
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
 :---:|:---:|:---:|:---:|:---:
