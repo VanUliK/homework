@@ -24,10 +24,12 @@
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
 :---:|:---:|:---:|:---:|:---:
 Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)|[YouTube](https://youtu.be/aPpRbGPBxJk)|
-|Урок 2|[YouTube](https://youtu.be/LME7fv4OeWQ)|[YouTube](https://youtu.be/L3MIW7Letb8)| |[YouTube](https://youtu.be/9cWm6nze29M)
+|Урок 2|[YouTube](https://youtu.be/LME7fv4OeWQ)|[YouTube](https://youtu.be/L3MIW7Letb8)|[YouTube](https://youtu.be/71TlixSCtak)|[YouTube](https://youtu.be/9cWm6nze29M)
 |Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)| |[YouTube](https://youtu.be/GrcKmjz8APE)
 |Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)| |[YouTube](https://youtu.be/Z95dc5e1Sb8)
 |Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)| |
+|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)| |
+
 
 
 
@@ -46,6 +48,9 @@
 [Zoom5_1]:(https://gbcdn.mrgcdn.ru/uploads/record/206703/attachment/15b0ed139767e97f32d54b178e6b1a68.mp4)
 [YouTube5_1]:(https://youtu.be/aWagc_yJIJc)
 
+[Zoom6_1]:(https://gbcdn.mrgcdn.ru/uploads/record/207375/attachment/f16516c296409dd4ac65bb3d72486fdd.mp4)
+[YouTube6_1]:(https://youtu.be/f4A6L28332c)
+
 [Zoom1_2]:(https://gbcdn.mrgcdn.ru/uploads/record/204551/attachment/9ce8bf11c7c512fe97bcbff6b061e14a.mp4)
 [YouTube1_2]:(https://youtu.be/NMMF2RO22uw)
 
@@ -63,4 +68,8 @@
 
 [Zoom1_3]:(https://gbcdn.mrgcdn.ru/uploads/record/206699/attachment/1b378d77f679188b7014ecdc63bf6196.mp4)
 [YouTube1_3]:(https://youtu.be/4aBsIp1iM3g)
+
+[Zoom2_3]:(https://gbcdn.mrgcdn.ru/uploads/record/207385/attachment/b3abc5fd42991bccbd2d0b9c7261a818.mp4)
+[YouTube2_3]:(https://youtu.be/71TlixSCtak)
+
 
