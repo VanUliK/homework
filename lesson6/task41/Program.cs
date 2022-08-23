@@ -45,4 +45,4 @@ for (int i = 0; i < array.Length; i++)
 }
 System.Console.WriteLine(" ");
 
-System.Console.WriteLine($"из них числе больше 0 = {res}");
+System.Console.WriteLine($"из них чисел больше 0 = {res}");

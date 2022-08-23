@@ -39,6 +39,6 @@ double diff = maxValue - minValue;
 Console.WriteLine(" ");
 Console.WriteLine("*Ответ*");
 Console.WriteLine($"Разница между максимальным ({maxValue:f2}) и минимальным ({minValue:f2}) элементом массива [] составляет {diff:f2}");
-Console.Write($"{string.Join(", ", array.Select(x => Math.Round(x, 2)))}");
+//Console.Write($"{string.Join(", ", array.Select(x => Math.Round(x, 2)))}");
 
 PrintArray(arr);
