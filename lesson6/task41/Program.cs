@@ -30,7 +30,7 @@ void PrintArray(int[] arr)
 }
 
 int[] array = new int[m];
-int count = array.Length;
+// int count = array.Length;
 
 FillArray(array);
 System.Console.WriteLine("вы ввели: ");
