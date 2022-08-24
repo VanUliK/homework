@@ -49,6 +49,7 @@ Console.WriteLine();
 string check(int n)
 {
     string? result = " ";
+    // string result = string.Empty;
     while (n > 0)
     {
         int x = n % 2;
