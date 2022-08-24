@@ -23,7 +23,7 @@
 
 [www.acmp.ru](http://www.acmp.ru)
 
-[Домашняя работа (канал в Тг)](https://t.me/+_q0-YJrrVlhhY2Uy)
+[Домашняя работа (канал в telegram)](https://t.me/+_q0-YJrrVlhhY2Uy)
 
 
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|

@@ -31,15 +31,33 @@ Console.WriteLine(string.Join("", array));
 
 // второй вариант с помощью рекурсии
 
-// Console.WriteLine("Введите колличество символов");
-// int number = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите число");
+int num = int.Parse(Console.ReadLine()!);
 
-// GetBinaryView(number);
+GetBinaryView(num);
 
-// void GetBinaryView(int N)
-// {
-//     if (N <= 0) return;
-//     GetBinaryView(N / 2);
-//     Console.Write(N % 2);
-// }
+void GetBinaryView(int N)
+{
+    if (N <= 0) return;
+    GetBinaryView(N / 2);
+    Console.Write(N % 2);
+}
+Console.WriteLine();
 
+// третий вариант через строку
+
+string check(int n)
+{
+    string? result = " ";
+    while (n > 0)
+    {
+        int x = n % 2;
+        result = Convert.ToString(x) + result;
+        n /= 2;
+    }
+    return result;
+}
+
+Console.WriteLine("Введите число");
+int n = int.Parse(Console.ReadLine()!);
+Console.WriteLine(check(n));
