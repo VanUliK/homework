@@ -23,6 +23,9 @@
 
 [www.acmp.ru](http://www.acmp.ru)
 
+[Домашняя работа (канал в Тг)](https://t.me/+_q0-YJrrVlhhY2Uy)
+
+
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
 :---:|:---:|:---:|:---:|:---:
 Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)|[YouTube](https://youtu.be/aPpRbGPBxJk)|
