@@ -21,6 +21,8 @@
 * [«Учись писать, читать и понимать алгоритмы», Паронджанов В. Д.](https://drive.google.com/file/d/10IuD40Xoe49HQDdfi1NFInb8sA1EJJXx/view?usp=sharing)
 * [«Алгоритмы компьютерной арифметики», Окулов С. М](https://drive.google.com/file/d/1IWi7y-lBK6G9dwVgl4IWRVRsGG9ah9yu/view?usp=sharing)
 
+[Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих Адитья Бхаргава](https://drive.google.com/file/d/1rJm-qXJS2x5LdIn2NqQ0WDScRtSGI3S-/view?usp=sharing)
+
 [www.acmp.ru](http://www.acmp.ru)
 
 [Домашняя работа (канал в telegram)](https://t.me/+_q0-YJrrVlhhY2Uy)
