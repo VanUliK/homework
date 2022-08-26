@@ -7,7 +7,7 @@ m = 3, n = 4.
 */
 
 
-int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = -10, int rightRange = 10)
+int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 10, int rightRange = 99)
 {
     int[,] matrix = new int[rowsCount, columnsCount];
 
@@ -34,8 +34,9 @@ void PrintMatrix(int[,] matrix)
         Console.WriteLine();
     }
 }
-Console.Write("Введите m и n через Enter ");
-int m = Convert.ToInt32(Console.ReadLine());//число строк
-int n = Convert.ToInt32(Console.ReadLine());//число столбцов
+Console.WriteLine("Введите число строк");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число столбцов");
+int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = FillMatrix(m, n);
 PrintMatrix(matrix);

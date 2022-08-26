@@ -8,3 +8,51 @@
 */
 
 // double - результат
+
+int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 0, int rightRange = 9)
+{
+    int[,] matrix = new int[rowsCount, columnsCount];
+    Random rand = new Random();
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            matrix[i, j] = rand.Next(leftRange, rightRange + 1);
+        }
+    }
+    return matrix;
+}
+
+void PrintMatrix(int[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            Console.Write(matrix[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+}
+
+void FindArithmeticColumnMatrix(int[,] matrix)
+{
+    double arithmeticColumns = 0;
+    int sumColumns = 0;
+    int result = 0;
+
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+        for (int i = 0; i < matrix.GetLength(0); i++)
+        {
+            sumColumns += matrix[i, 0];
+        }
+    }
+    arithmeticColumns = sumColumns / matrix.GetLength(1);
+    Console.WriteLine("сумма первого столбца = " + sumColumns/matrix.GetLength(1));
+    Console.WriteLine($"Среднее арифметическое первого столбца = {arithmeticColumns/matrix.GetLength(0)}");
+}
+
+int[,] matrix = FillMatrix(4, 5);
+PrintMatrix(matrix);
+FindArithmeticColumnMatrix(matrix);

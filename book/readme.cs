@@ -1,3 +1,4 @@
+/*
 // очистка консоли
 Console.Clear();
 
@@ -23,4 +24,22 @@ git push -u origin main
 Console.Write($"{string.Join(", ", array.Select(x => Math.Round(x, 2)))}");
 
 
+
+
+// Объявляем двумерный массив
+int[,] myArr = new int[4, 5];
+
+Random ran = new Random();
+
+// Инициализируем данный массив
+for (int i = 0; i < 4; i++)
+{
+    for (int j = 0; j < 5; j++)
+    {
+       myArr[i, j] = ran.Next(1, 15);
+       Console.Write("{0}\t", myArr[i, j]);
+    }
+    Console.WriteLine();
+}
+*/
 
