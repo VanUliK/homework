@@ -33,10 +33,13 @@
 :---:|:---:|:---:|:---:|:---:
 Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)|[YouTube](https://youtu.be/aPpRbGPBxJk)|
 |Урок 2|[YouTube](https://youtu.be/LME7fv4OeWQ)|[YouTube](https://youtu.be/L3MIW7Letb8)|[YouTube](https://youtu.be/71TlixSCtak)|[YouTube](https://youtu.be/9cWm6nze29M)
-|Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)| |[YouTube](https://youtu.be/GrcKmjz8APE)
-|Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)| |[YouTube](https://youtu.be/Z95dc5e1Sb8)
-|Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)| |
-|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)| |
+|Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)|[YouTube](https://youtu.be/bMV-1Vkl0eU)|[YouTube](https://youtu.be/GrcKmjz8APE)
+|Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)|[YouTube]()|[YouTube](https://youtu.be/Z95dc5e1Sb8)
+|Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)|[YouTube]()|[YouTube](https://youtu.be/dNe-zoYmCJQ)
+|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)|[YouTube]()|[YouTube]()
+|Урок 7|[YouTube](https://youtu.be/wZ5EEAdy5yc)|[YouTube]()|[YouTube]()|[YouTube]()
+
+
 
 
 
@@ -58,6 +61,9 @@
 
 [Zoom6_1]:(https://gbcdn.mrgcdn.ru/uploads/record/207375/attachment/f16516c296409dd4ac65bb3d72486fdd.mp4)
 [YouTube6_1]:(https://youtu.be/f4A6L28332c)
+
+[Zoom7_1]:(https://gbcdn.mrgcdn.ru/uploads/record/207900/attachment/a7fb29d8ee36fbcfd136884339cda277.mp4)
+[YouTube7_1]:(https://youtu.be/wZ5EEAdy5yc)
 
 [Zoom1_2]:(https://gbcdn.mrgcdn.ru/uploads/record/204551/attachment/9ce8bf11c7c512fe97bcbff6b061e14a.mp4)
 [YouTube1_2]:(https://youtu.be/NMMF2RO22uw)
