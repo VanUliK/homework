@@ -52,7 +52,22 @@ for (int i = 0; i < matrix.GetLength(0); i++)
     }
 }
 
+/* Решение в один цикл
+
+int sum = 0;
+int min = m;
+if (n < min)
+{
+    min = n;
+}
+for (int i = 0; i < min; i++)
+{
+         sum += matrix[i,i] ;
+}
+*/
 
 PrintMatrix(matrix);
 Console.WriteLine();
 Console.WriteLine(sum);
+
+
