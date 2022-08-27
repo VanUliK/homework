@@ -36,8 +36,8 @@
 |Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)|[YouTube](https://youtu.be/bMV-1Vkl0eU)|[YouTube](https://youtu.be/GrcKmjz8APE)
 |Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)|[YouTube]()|[YouTube](https://youtu.be/Z95dc5e1Sb8)
 |Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)|[YouTube]()|[YouTube](https://youtu.be/dNe-zoYmCJQ)
-|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)|[YouTube]()|[YouTube]()
-|Урок 7|[YouTube](https://youtu.be/wZ5EEAdy5yc)|[YouTube]()|[YouTube]()|[YouTube]()
+|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)|[YouTube]()|[YouTube](https://youtu.be/qMbUD-V9HTA)
+|Урок 7|[YouTube](https://youtu.be/wZ5EEAdy5yc)|[YouTube](https://youtu.be/82QT289F0zw)|[YouTube]()|[YouTube]()
 
 
 
@@ -79,6 +79,11 @@
 
 [Zoom5_2]:(https://gbcdn.mrgcdn.ru/uploads/record/206969/attachment/fb8f56d26a2d8ec69ec85df747bce0ad.mp4)
 [YouTube5_2]:(https://youtu.be/yhRw2EwI6_s)
+
+[Zoom6_2]:(https://gbcdn.mrgcdn.ru/uploads/record/207139/attachment/32ec7d2c979dee8fa585edfc341e426b.mp4)
+
+[Zoom7_2]:(https://gbcdn.mrgcdn.ru/uploads/record/208138/attachment/b2273360379a0cacb61589a38ef2298f.mp4)
+[YouTube7_2]:(https://youtu.be/82QT289F0zw)
 
 [Zoom1_3]:(https://gbcdn.mrgcdn.ru/uploads/record/206699/attachment/1b378d77f679188b7014ecdc63bf6196.mp4)
 [YouTube1_3]:(https://youtu.be/4aBsIp1iM3g)

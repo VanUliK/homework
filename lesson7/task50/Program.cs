@@ -41,7 +41,7 @@ Console.WriteLine("Введите индекс столбца");
 int n = Convert.ToInt32(Console.ReadLine());
 void FindIndexMatrix(int[,] matrix)
 {
-    if (m < matrix.GetLength(0) && n < matrix.GetLength(1))
+    if (m >= 0 && m < matrix.GetLength(0) && n >= 0 && n < matrix.GetLength(1))
     {
         Console.WriteLine(matrix[m, n]);
     }

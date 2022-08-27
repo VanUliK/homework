@@ -47,11 +47,9 @@ for (int j = 0; j < matrix.GetLength(1); j++)
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         temp += matrix[i, 0];
-        result = matrix[i, j];
         Console.Write(matrix[i, j] + " ");
-        Console.Write(result + " ");
-
     }
+    Console.WriteLine();
 }
 Console.WriteLine(result);
 sumColumns = temp / matrix.GetLength(1);
