@@ -22,7 +22,15 @@
 
 * [«Алгоритмы компьютерной арифметики», Окулов С. М](https://drive.google.com/file/d/1IWi7y-lBK6G9dwVgl4IWRVRsGG9ah9yu/view?usp=sharing)
 
-[Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих Адитья Бхаргава](https://drive.google.com/file/d/1rJm-qXJS2x5LdIn2NqQ0WDScRtSGI3S-/view?usp=sharing)
+* [Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих Адитья Бхаргава](https://drive.google.com/file/d/1rJm-qXJS2x5LdIn2NqQ0WDScRtSGI3S-/view?usp=sharing)
+
+* [«Введение в теорию алгоритмов и структур данных», Бабенко М. А., Левин М. В.](https://drive.google.com/file/d/1BsNfPLcozcCHRtW_pF-j17AevSElhbj0/view?usp=sharing)
+
+* [«Удовольствие от х», Строгац, П.](https://drive.google.com/file/d/13y6Mb_Bsd4iT8YyRQFCw5vvKlrysANn0/view?usp=sharing)
+
+* [«Программирование: теоремы и задачи», А. Шень](https://drive.google.com/file/d/1hN53rcWowEIBfPsvqQV9W5_fWU3Xu2dL/view?usp=sharing)
+
+* [«Математическая логика и теория алгоритмов для программистов», Гринченков Дмитрий Валерьевич, Потоцкий Сергей Иванович](https://drive.google.com/file/d/1MRIZK2Lj5BLXgMMQM1W782PZFqY_7Yai/view?usp=sharing)
 
 [www.acmp.ru](http://www.acmp.ru)
 
@@ -34,10 +42,10 @@
 Урок 1|[YouTube](https://youtu.be/cyz89oRUcQo)|[YouTube](https://youtu.be/NMMF2RO22uw)|[YouTube](https://youtu.be/4aBsIp1iM3g)|[YouTube](https://youtu.be/aPpRbGPBxJk)|
 |Урок 2|[YouTube](https://youtu.be/LME7fv4OeWQ)|[YouTube](https://youtu.be/L3MIW7Letb8)|[YouTube](https://youtu.be/71TlixSCtak)|[YouTube](https://youtu.be/9cWm6nze29M)
 |Урок 3|[YouTube](https://youtu.be/T2WlMecRFew)|[YouTube](https://youtu.be/lcmiaGLTbcc)|[YouTube](https://youtu.be/bMV-1Vkl0eU)|[YouTube](https://youtu.be/GrcKmjz8APE)
-|Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)|[YouTube]()|[YouTube](https://youtu.be/Z95dc5e1Sb8)
-|Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)|[YouTube]()|[YouTube](https://youtu.be/dNe-zoYmCJQ)
-|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)|[YouTube]()|[YouTube](https://youtu.be/qMbUD-V9HTA)
-|Урок 7|[YouTube](https://youtu.be/wZ5EEAdy5yc)|[YouTube](https://youtu.be/82QT289F0zw)|[YouTube]()|[YouTube]()
+|Урок 4|[YouTube](https://youtu.be/M_gAp7fbgQU)|[YouTube](https://youtu.be/ghX8BGg2AKY)|[***YouTube***]()|[YouTube](https://youtu.be/Z95dc5e1Sb8)
+|Урок 5|[YouTube](https://youtu.be/aWagc_yJIJc)|[YouTube](https://youtu.be/yhRw2EwI6_s)|[***YouTube***]()|[YouTube](https://youtu.be/dNe-zoYmCJQ)
+|Урок 6|[YouTube](https://youtu.be/f4A6L28332c)|[YouTube](https://youtu.be/GqoTZwkw__c)|[***YouTube***]()|[***YouTube***](https://youtu.be/qMbUD-V9HTA)
+|Урок 7|[YouTube](https://youtu.be/wZ5EEAdy5yc)|[YouTube](https://youtu.be/82QT289F0zw)|[***YouTube***]()|[***YouTube***]()
 
 
 

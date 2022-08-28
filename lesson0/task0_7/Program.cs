@@ -46,11 +46,22 @@ for (int j = 0; j < matrix.GetLength(1); j++)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        temp += matrix[i, 0];
-        Console.Write(matrix[i, j] + " ");
+        temp += matrix[i, j];
+        //  Console.Write(matrix[0, j]);
     }
-    Console.WriteLine();
+    
+    Console.WriteLine(temp);
+    temp = 0;
 }
+
+            sumColumns += matrix[i, j];
+        }
+        arithmeticColumns = sumColumns / matrix.GetLength(0);
+        Console.Write($"Сумма {j + 1} столбца = {sumColumns} ");
+        Console.WriteLine($" Среднеарифметическое = {arithmeticColumns:F2}");
+        sumColumns = 0;
+    }
+
 Console.WriteLine(result);
 sumColumns = temp / matrix.GetLength(1);
 arithmeticColumns = sumColumns / matrix.GetLength(0);
