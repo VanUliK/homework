@@ -36,6 +36,8 @@
 
 [Домашняя работа (канал в telegram)](https://t.me/+_q0-YJrrVlhhY2Uy)
 
+[Цифровые професии](https://profidigital.gosuslugi.ru/?direction=prog)
+
 
 № урока|Иван Линцов|Клим Гордеев|Сергей Демин|Семинар|
 :---:|:---:|:---:|:---:|:---:
