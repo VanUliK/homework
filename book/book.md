@@ -32,8 +32,9 @@
 |  Урок 3  | [YouTube](https://youtu.be/T2WlMecRFew) | [YouTube](https://youtu.be/lcmiaGLTbcc) | [YouTube](https://youtu.be/bMV-1Vkl0eU) |        [YouTube](https://youtu.be/GrcKmjz8APE)        |
 |  Урок 4  | [YouTube](https://youtu.be/M_gAp7fbgQU) | [YouTube](https://youtu.be/ghX8BGg2AKY) |        [***YouTube***]()        |        [YouTube](https://youtu.be/Z95dc5e1Sb8)        |
 |  Урок 5  | [YouTube](https://youtu.be/aWagc_yJIJc) | [YouTube](https://youtu.be/yhRw2EwI6_s) |        [***YouTube***]()        |        [YouTube](https://youtu.be/dNe-zoYmCJQ)        |
-|  Урок 6  | [YouTube](https://youtu.be/f4A6L28332c) | [YouTube](https://youtu.be/GqoTZwkw__c) |        [***YouTube***]()        | [***YouTube***](https://youtu.be/qMbUD-V9HTA) |
+|  Урок 6  | [YouTube](https://youtu.be/f4A6L28332c) | [YouTube](https://youtu.be/GqoTZwkw__c) |        [***YouTube***]()        | [YouTube](https://youtu.be/qMbUD-V9HTA) |
 |  Урок 7  | [YouTube](https://youtu.be/wZ5EEAdy5yc) | [YouTube](https://youtu.be/82QT289F0zw) |        [***YouTube***]()        |               [***YouTube***]()               |
+|  Урок 8  | [YouTube](https://youtu.be/-zmLrIy0Y88) | [***YouTube***]() |        [***YouTube***]()        |               [***YouTube***]()               |
 
 [Zoom1_1]: (https://gbcdn.mrgcdn.ru/uploads/record/204263/attachment/c6d49798fe20fdee2b76b7553fa43bcb.mp4)
 [YouTube1_1]: (https://youtu.be/cyz89oRUcQo)
