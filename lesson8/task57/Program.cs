@@ -56,6 +56,8 @@ for (int i = 0; i < matrix.GetLength(0); i++)
 }
 for (int i = 0; i < array.Length; i++)
 {
-
-    Console.WriteLine($"Колличество {i} = {array[i]}");
+    if (array[i] > 0)
+    {
+        Console.WriteLine($"Количество {i} = {array[i]}");
+    }
 }
