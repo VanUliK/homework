@@ -14,7 +14,7 @@ double[,] FillMatrix(int rowsCount, int columnsCount)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = rand.NextDouble() * 100;
+            matrix[i, j] = rand.NextDouble() * 100 + 20;
         }
     }
     return matrix;
