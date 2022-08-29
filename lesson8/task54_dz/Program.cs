@@ -11,6 +11,7 @@
 8 4 4 2
 */
 
+/*
 int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 10, int rightRange = 99)
 {
     int[,] matrix = new int[rowsCount, columnsCount];
@@ -43,6 +44,21 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число столбцов");
 int n = Convert.ToInt32(Console.ReadLine());
 
-int[,] matrix = FillMatrix(m, n);
+int[,] InvertMatrix(int rowsCount, int columnsCount)
+{
+    int[,] invertMatrix = new int[rowsCount, columnsCount];
+    int[,] matrix = FillMatrix(m, n);
+    for (int i = 0; i < invertMatrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < invertMatrix.GetLength(1); j++)
+        {
+            invertMatrix[i, j] = i + j;
+        }
+    }
+    return invertMatrix;
+}
 
-PrintMatrix(matrix);
+int[,] matrix = FillMatrix(m, n);
+int[,] invertMatrix = InvertMatrix(m, n);
+PrintMatrix(invertMatrix);
+*/
