@@ -9,7 +9,6 @@
 * [«Математические основы машинного обучения и прогнозирования», В. В. Вьюгин](https://drive.google.com/file/d/1hZ7yonCo2gVs5HyZmnKahWD_W1h6rFHr/view?usp=sharing)
 * [CLR via C#. Программирование на платформе Microsoft .NET Рихтер Дж. 3-е издание](https://drive.google.com/file/d/1BhOreW_fUnNB0i-GKGlJBnzAqpPm67hR/view?usp=sharing)
 * [CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C# Рихтер Дж. - 4-е издание](https://drive.google.com/file/d/1at8RGUqMcz_QAkkOK_Fv3dbkIZjZZy6v/view?usp=sharing)
-* 
 * [Cправочное руководство по C#](https://drive.google.com/file/d/12tjZr6o-S1cwXBjiKcoIT1WFdutSCYuq/view?usp=sharing)
 * [«Учись писать, читать и понимать алгоритмы», Паронджанов В. Д.](https://drive.google.com/file/d/10IuD40Xoe49HQDdfi1NFInb8sA1EJJXx/view?usp=sharing)
 * [«Алгоритмы компьютерной арифметики», Окулов С. М](https://drive.google.com/file/d/1IWi7y-lBK6G9dwVgl4IWRVRsGG9ah9yu/view?usp=sharing)
