@@ -3,7 +3,7 @@ Console.Clear();
 
 int i, n, c;
 Console.WriteLine("Введите нужное количество строк треугольника Паскаля:");
-string s = Console.ReadLine();
+string s = Console.ReadLine()!;
 n = Convert.ToInt32(s);
 
 int factorial(int n)
