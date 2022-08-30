@@ -33,7 +33,7 @@ int[] array = new int[m];
 // int count = array.Length;
 
 FillArray(array);
-System.Console.WriteLine("вы ввели: ");
+Console.WriteLine("вы ввели: ");
 PrintArray(array);
 int res = 0;
 for (int i = 0; i < array.Length; i++)
@@ -43,6 +43,6 @@ for (int i = 0; i < array.Length; i++)
         res += 1;
     }
 }
-System.Console.WriteLine(" ");
+Console.WriteLine(" ");
 
-System.Console.WriteLine($"из них чисел больше 0 = {res}");
+Console.WriteLine($"из них чисел больше 0 = {res}");

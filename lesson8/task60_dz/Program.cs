@@ -8,15 +8,14 @@
 26(1,0,1) 55(1,1,1)
 */
 
-Console.WriteLine("Введите число строк");
+Console.WriteLine("Введите число x");
 int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число столбцов");
+Console.WriteLine("Введите число y");
 int y = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число строк");
+Console.WriteLine("Введите число z");
 int z = Convert.ToInt32(Console.ReadLine());
 
 int[,,] matrix3D = new int[x, y, z];
-
 
 void CreateArray(int[,,] array3D)
 {
