@@ -10,9 +10,9 @@
 9 5 3 2
 8 4 4 2
 */
+Console.Clear();
 
-/*
-int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 10, int rightRange = 99)
+int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 0, int rightRange = 9)
 {
     int[,] matrix = new int[rowsCount, columnsCount];
 
@@ -38,27 +38,34 @@ void PrintMatrix(int[,] matrix)
         Console.WriteLine();
     }
 }
+
 Console.WriteLine("Введите число строк");
 int m = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите число столбцов");
 int n = Convert.ToInt32(Console.ReadLine());
 
-int[,] InvertMatrix(int rowsCount, int columnsCount)
+void InvertMatrix(int[,] matrix)
 {
-    int[,] invertMatrix = new int[rowsCount, columnsCount];
-    int[,] matrix = FillMatrix(m, n);
-    for (int i = 0; i < invertMatrix.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < invertMatrix.GetLength(1); j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            invertMatrix[i, j] = i + j;
+            for (int k = 0; k < matrix.GetLength(1) - 1; k++)
+            {
+                if (matrix[i, k] < matrix[i, k + 1])
+                {
+                    int temp = matrix[i, k + 1];
+                    matrix[i, k + 1] = matrix[i, k];
+                    matrix[i, k] = temp;
+                }
+            }
         }
     }
-    return invertMatrix;
 }
 
 int[,] matrix = FillMatrix(m, n);
-int[,] invertMatrix = InvertMatrix(m, n);
-PrintMatrix(invertMatrix);
-*/
+PrintMatrix(matrix);
+Console.WriteLine();
+InvertMatrix(matrix);
+PrintMatrix(matrix);
