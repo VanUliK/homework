@@ -43,7 +43,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = FillMatrix(m, n);
 PrintMatrix(matrix);
 Console.WriteLine();
-//SumRowMatrix(matrix);
+
 int sumRow = 0;
 int maxLine = 0;
 int max = 0;
