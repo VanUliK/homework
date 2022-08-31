@@ -46,21 +46,22 @@ Console.WriteLine();
 
 int sumRow = 0;
 int maxLine = 0;
-int max = 0;
+int max = sumRow;
 int temp = 0;
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        sumRow += matrix[i, j];
+        temp += matrix[i, j];
+        sumRow = temp;
     }
-    Console.WriteLine($"Сумма {i + 1} строки = {sumRow} ");
+    temp = 0;
 
     if (max < sumRow)
     {
-        temp = sumRow;
+        max = sumRow;
         maxLine = i + 1;
     }
-    temp = 0;
+    Console.WriteLine($"Сумма {i + 1} строки = {sumRow} ");
 }
-Console.WriteLine($"Максимальная строка {maxLine} её сумма = {sumRow} ");
+Console.WriteLine($"Максимальная строка {maxLine} её сумма = {max} ");
