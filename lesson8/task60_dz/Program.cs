@@ -7,19 +7,27 @@
 27(0,0,1) 90(0,1,1)
 26(1,0,1) 55(1,1,1)
 */
+Console.Clear();
 
-Console.WriteLine("Введите число x");
-int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число y");
-int y = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число z");
-int z = Convert.ToInt32(Console.ReadLine());
-
-int[,,] matrix3D = new int[x, y, z];
-
-void CreateArray(int[,,] array3D)
+void PrintMatrix (int[,,] matrix3D)
 {
-  int[] temp = new int[array3D.GetLength(0) * array3D.GetLength(1) * array3D.GetLength(2)];
+  for (int i = 0; i < matrix3D.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix3D.GetLength(1); j++)
+    {
+      for (int k = 0; k < matrix3D.GetLength(2); k++)
+      {
+        Console.Write( $" [{i},{j},{k}] = {matrix3D[i,j,k]}; ");
+      }
+      Console.WriteLine();
+    }
+    Console.WriteLine();
+  }
+}
+
+void FillMatrix(int[,,] matrix3D)
+{
+  int[] temp = new int[matrix3D.GetLength(0) * matrix3D.GetLength(1) * matrix3D.GetLength(2)];
   int  number;
   for (int i = 0; i < temp.GetLength(0); i++)
   {
@@ -40,16 +48,27 @@ void CreateArray(int[,,] array3D)
     }
   }
   int count = 0; 
-  for (int x = 0; x < array3D.GetLength(0); x++)
+  for (int x = 0; x < matrix3D.GetLength(0); x++)
   {
-    for (int y = 0; y < array3D.GetLength(1); y++)
+    for (int y = 0; y < matrix3D.GetLength(1); y++)
     {
-      for (int z = 0; z < array3D.GetLength(2); z++)
+      for (int z = 0; z < matrix3D.GetLength(2); z++)
       {
-        array3D[x, y, z] = temp[count];
+        matrix3D[x, y, z] = temp[count];
         count++;
       }
     }
   }
 }
+
+Console.WriteLine("Введите число x");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число y");
+int y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число z");
+int z = Convert.ToInt32(Console.ReadLine());
+
+int[,,] matrix3D = new int[x, y, z];
+FillMatrix(matrix3D);
+PrintMatrix(matrix3D);
 
