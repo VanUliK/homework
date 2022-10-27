@@ -44,7 +44,7 @@ void InputMatrix(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().NextDouble() * 100;
+            matrix[i, j] = new Random().Next(-9, 10) * new Random().NextDouble();
             Console.Write($"{matrix[i, j]:f2} \t");
         }
         Console.WriteLine();
