@@ -17,3 +17,6 @@ double yB = Convert.ToDouble(Console.ReadLine());
 double res = Math.Sqrt(Math.Pow(xA - xB, 2) + Math.Pow(yA - yB, 2));
 
 Console.WriteLine($"{res:f2}");
+
+// double y = Math.Round(res, 2);
+// Console.WriteLine(y);
