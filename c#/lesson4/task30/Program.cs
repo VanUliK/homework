@@ -29,3 +29,7 @@ int count = array.Length;
 
 FillArray(array);
 PrintArray(array);
+
+// Console.WriteLine(string.Join(", ", array)); // вывод массива одной строкой
+// Console.WriteLine($"[{string.Join(", ", array)}]");
+

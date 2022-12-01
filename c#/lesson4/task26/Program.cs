@@ -11,7 +11,7 @@ int count = 0;
 for (count = 0; number > 0; count++)
 {
     number = number / 10;
-    //number /+ 10;
+    //number /= 10;
 }
 // while (number > 0)
 // {
