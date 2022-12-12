@@ -5,6 +5,15 @@ m = 3, n = 4.
 1 -3,3 8 -9,9
 8 7,8 -7,1 9
 */
+
+Random rand = new Random();
+// Console.WriteLine(rand.NextDouble()); [0.0, 1.0)
+//Console.WriteLine(rand.NextDouble() * 10); // [0.0, 10.0)
+Console.WriteLine($"{rand.NextDouble() * 10 - 5:f2}"); // [-5.0, 5.0)
+Console.WriteLine($"{rand.NextDouble() * (13.0 + 7.0) - 7.0:f2}"); // [-7.0, 13.0)
+//rand.NextDouble() * (maxValue + minValue) + minValue
+
+
 Console.Clear();
 // double[,] FillMatrix(int rowsCount, int columnsCount)
 // {
