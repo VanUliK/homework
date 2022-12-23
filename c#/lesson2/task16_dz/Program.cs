@@ -11,14 +11,14 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 if (number1 * number1 == number2)
 {
-    Console.WriteLine($"число {number2} является квадратом {number1}");
+  Console.WriteLine($"число {number2} является квадратом {number1}");
 }
-else if(number2 * number2 == number1)
+else if (number2 * number2 == number1)
 {
-    Console.WriteLine($"число {number1} является квадратом {number2}");
+  Console.WriteLine($"число {number1} является квадратом {number2}");
 }
 else
 {
-    Console.WriteLine("Нет");
+  Console.WriteLine("Нет");
 }
 

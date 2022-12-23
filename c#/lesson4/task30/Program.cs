@@ -5,23 +5,23 @@
 
 void PrintArray(int[] arr)
 {
-    int count = arr.Length;
-    int index = 0;
-    while (index < count)
-    {
-        Console.Write(arr[index] + " ");
-        index++;
-    }
+  int count = arr.Length;
+  int index = 0;
+  while (index < count)
+  {
+    Console.Write(arr[index] + " ");
+    index++;
+  }
 }
 void FillArray(int[] array)
 {
-    int length = array.Length;
-    int index = 0;
-    while (index < length)
-    {
-        array[index] = new Random().Next(0, 2);
-        index++;
-    }
+  int length = array.Length;
+  int index = 0;
+  while (index < length)
+  {
+    array[index] = new Random().Next(0, 2);
+    index++;
+  }
 }
 
 int[] array = new int[8];

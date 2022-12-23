@@ -9,8 +9,8 @@ int a = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
 for (int i = 0; i < a; i++)
 {
-    sum = sum + i;
-    //sum += i;
+  sum = sum + i;
+  //sum += i;
 }
 Console.WriteLine(a + sum);
 
@@ -18,9 +18,9 @@ Console.WriteLine(a + sum);
 
 int GetSum(int a)
 {
-    return a * (a + 1) / 2;
-    // int sum = a * (a + 1) / 2;
-    // return sum;
+  return a * (a + 1) / 2;
+  // int sum = a * (a + 1) / 2;
+  // return sum;
 }
 
 Console.WriteLine(GetSum(a));

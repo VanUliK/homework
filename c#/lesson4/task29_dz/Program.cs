@@ -44,7 +44,7 @@ Console.WriteLine("Введите 8 (Восемь) целых чисел для 
 
 for (int i = 0; i < arr.Length; i++)
 {
-    arr[i] = Convert.ToInt32(Console.ReadLine());
+  arr[i] = Convert.ToInt32(Console.ReadLine());
 }
 Console.WriteLine("Вы создали массив:");
 Console.Write(string.Join(", ", arr));

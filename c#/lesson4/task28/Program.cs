@@ -9,9 +9,9 @@ int i;
 
 for (i = 1; i <= N; i++)
 {
-    //N = 1 2 3 4 5
-    // 1*1 1*2 1*3 1*4 1*5
-    res = i * res;
+  //N = 1 2 3 4 5
+  // 1*1 1*2 1*3 1*4 1*5
+  res = i * res;
 }
 
 Console.WriteLine(res);

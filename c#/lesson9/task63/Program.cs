@@ -11,7 +11,7 @@ PrintNumbersToN(number);
 
 void PrintNumbersToN(int n)
 {
-    if (n < 1) return;
-    PrintNumbersToN(n-1);
-    Console.Write(n + " ");
+  if (n < 1) return;
+  PrintNumbersToN(n - 1);
+  Console.Write(n + " ");
 }

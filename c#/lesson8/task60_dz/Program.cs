@@ -9,7 +9,7 @@
 */
 Console.Clear();
 
-void PrintMatrix (int[,,] matrix3D)
+void PrintMatrix(int[,,] matrix3D)
 {
   for (int i = 0; i < matrix3D.GetLength(0); i++)
   {
@@ -17,7 +17,7 @@ void PrintMatrix (int[,,] matrix3D)
     {
       for (int k = 0; k < matrix3D.GetLength(2); k++)
       {
-        Console.Write( $" [{i},{j},{k}] = {matrix3D[i,j,k]}; ");
+        Console.Write($" [{i},{j},{k}] = {matrix3D[i, j, k]}; ");
       }
       Console.WriteLine();
     }
@@ -28,7 +28,7 @@ void PrintMatrix (int[,,] matrix3D)
 void FillMatrix(int[,,] matrix3D)
 {
   int[] temp = new int[matrix3D.GetLength(0) * matrix3D.GetLength(1) * matrix3D.GetLength(2)];
-  int  number;
+  int number;
   for (int i = 0; i < temp.GetLength(0); i++)
   {
     temp[i] = new Random().Next(10, 100);
@@ -43,11 +43,11 @@ void FillMatrix(int[,,] matrix3D)
           j = 0;
           number = temp[i];
         }
-          number = temp[i];
+        number = temp[i];
       }
     }
   }
-  int count = 0; 
+  int count = 0;
   for (int x = 0; x < matrix3D.GetLength(0); x++)
   {
     for (int y = 0; y < matrix3D.GetLength(1); y++)

@@ -8,25 +8,25 @@ int m = Convert.ToInt32(Console.ReadLine());
 
 void FillArray(int[] array)
 {
-    int length = array.Length;
-    int index = 0;
-    while (index < length)
-    {
-        Console.WriteLine($"Введите число №{index + 1}:");
-        int N = Convert.ToInt32(Console.ReadLine());
-        array[index] = N;
-        index++;
-    }
+  int length = array.Length;
+  int index = 0;
+  while (index < length)
+  {
+    Console.WriteLine($"Введите число №{index + 1}:");
+    int N = Convert.ToInt32(Console.ReadLine());
+    array[index] = N;
+    index++;
+  }
 }
 void PrintArray(int[] arr)
 {
-    int count = arr.Length;
-    int index = 0;
-    while (index < count)
-    {
-        Console.Write(arr[index] + " ");
-        index++;
-    }
+  int count = arr.Length;
+  int index = 0;
+  while (index < count)
+  {
+    Console.Write(arr[index] + " ");
+    index++;
+  }
 }
 
 int[] array = new int[m];
@@ -38,10 +38,10 @@ PrintArray(array);
 int res = 0;
 for (int i = 0; i < array.Length; i++)
 {
-    if (array[i] > 0)
-    {
-        res += 1;
-    }
+  if (array[i] > 0)
+  {
+    res += 1;
+  }
 }
 Console.WriteLine(" ");
 

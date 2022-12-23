@@ -11,14 +11,14 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 int PowAtoB(int a, int b)
 {
-    if ( b == 0) return 1;
-    return PowAtoB(a, b - 1) * a;
+  if (b == 0) return 1;
+  return PowAtoB(a, b - 1) * a;
 
-// int PowerRec(int a, int b)
-// {
-//     return b == 0 ? 1 : PowerRec(a, b - 1) * a;
-//     // if (b == 0) return 1;
-//     // else return PowerRec(a, n - 1) * a;
+  // int PowerRec(int a, int b)
+  // {
+  //     return b == 0 ? 1 : PowerRec(a, b - 1) * a;
+  //     // if (b == 0) return 1;
+  //     // else return PowerRec(a, n - 1) * a;
 }
 int sum = PowAtoB(numberA, numberB);
 Console.WriteLine(sum);

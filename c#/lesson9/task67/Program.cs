@@ -12,11 +12,11 @@ int sum = PrintNumbersToN(number);
 Console.WriteLine(sum);
 int PrintNumbersToN(int n)
 {
-    // int count = 0;
-    if (n <= 0) return 0;
-    // count = n % 10;
-    // n = n / 10;
-    // return count + PrintNumbersToN(n);
-    return n % 10 + PrintNumbersToN(n / 10);
+  // int count = 0;
+  if (n <= 0) return 0;
+  // count = n % 10;
+  // n = n / 10;
+  // return count + PrintNumbersToN(n);
+  return n % 10 + PrintNumbersToN(n / 10);
 
 }

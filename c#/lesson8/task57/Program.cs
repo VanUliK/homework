@@ -15,28 +15,28 @@
 
 int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 0, int rightRange = 9)
 {
-    int[,] matrix = new int[rowsCount, columnsCount];
-    Random rand = new Random();
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  int[,] matrix = new int[rowsCount, columnsCount];
+  Random rand = new Random();
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            matrix[i, j] = rand.Next(leftRange, rightRange + 1);
-        }
+      matrix[i, j] = rand.Next(leftRange, rightRange + 1);
     }
-    return matrix;
+  }
+  return matrix;
 }
 
 void PrintMatrix(int[,] matrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write(matrix[i, j] + " ");
-        }
-        Console.WriteLine();
+      Console.Write(matrix[i, j] + " ");
     }
+    Console.WriteLine();
+  }
 }
 
 int[] array = new int[10];
@@ -49,15 +49,15 @@ PrintMatrix(matrix);
 Console.WriteLine();
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-        array[matrix[i, j]] = array[matrix[i, j]] + 1;
-    }
+  for (int j = 0; j < matrix.GetLength(1); j++)
+  {
+    array[matrix[i, j]] = array[matrix[i, j]] + 1;
+  }
 }
 for (int i = 0; i < array.Length; i++)
 {
-    if (array[i] > 0)
-    {
-        Console.WriteLine($"Количество {i} = {array[i]}");
-    }
+  if (array[i] > 0)
+  {
+    Console.WriteLine($"Количество {i} = {array[i]}");
+  }
 }

@@ -1,12 +1,12 @@
 ﻿void PrintArray(double[] arr)
 {
-    int count = arr.Length;
-    int index = 0;
-    while (index < count)
-    {
-        Console.Write($"{arr[index]:f2} ");
-        index++;
-    }
+  int count = arr.Length;
+  int index = 0;
+  while (index < count)
+  {
+    Console.Write($"{arr[index]:f2} ");
+    index++;
+  }
 }
 // Console.WriteLine("Задайте размер массива со случайными числами: ");
 // int arrLen = Convert.ToInt32(Console.ReadLine());
@@ -25,15 +25,15 @@ double maxValue = arr[0];
 double minValue = arr[0];
 for (i = 1; i < arr.Length; i++)
 {
-    arr[i] = rand.NextDouble() * (maxArrValue - minArrValue) + minArrValue;
-    if (arr[i] > maxValue)
-    {
-        maxValue = arr[i];
-    }
-    else if (arr[i] < minValue)
-        {
-            minValue = arr[i];
-        }
+  arr[i] = rand.NextDouble() * (maxArrValue - minArrValue) + minArrValue;
+  if (arr[i] > maxValue)
+  {
+    maxValue = arr[i];
+  }
+  else if (arr[i] < minValue)
+  {
+    minValue = arr[i];
+  }
 }
 double diff = maxValue - minValue;
 Console.WriteLine(" ");

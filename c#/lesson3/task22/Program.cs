@@ -8,14 +8,14 @@ int N = Convert.ToInt32(Console.ReadLine());
 // Первый вариант
 for (int i = 1; i <= N; i++)
 {
-    Console.WriteLine(i * i + " ");
+  Console.WriteLine(i * i + " ");
 }
 
 // Второй вариант
 string result = "";
 for (int i = 1; i <= N; i++)
 {
-    double res = Math.Pow(i, 2);
-    result = result + res + " | ";
+  double res = Math.Pow(i, 2);
+  result = result + res + " | ";
 }
 Console.WriteLine(result);

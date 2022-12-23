@@ -13,17 +13,17 @@ int numberN = Convert.ToInt32(Console.ReadLine());
 
 if (numberM > numberN)
 {
-    Console.WriteLine("Число M не может быть больше N");
+  Console.WriteLine("Число M не может быть больше N");
 }
 else
 {
-    int sum = SumCountFromMToN(numberN, numberM);
-    Console.WriteLine(sum);
+  int sum = SumCountFromMToN(numberN, numberM);
+  Console.WriteLine(sum);
 }
 
 int SumCountFromMToN(int n, int m)
 {
-    if (n < m) return 0;
-    int sum = SumCountFromMToN(n - 1, m);
-    return sum += n;
+  if (n < m) return 0;
+  int sum = SumCountFromMToN(n - 1, m);
+  return sum += n;
 }

@@ -11,6 +11,6 @@ int sum = 1;
 
 for (i = 1; i <= B; i++)
 {
-    sum = A * sum;
+  sum = A * sum;
 }
 Console.WriteLine($"Число {A} в степени {B} равно = {sum}");

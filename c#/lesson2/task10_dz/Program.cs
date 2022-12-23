@@ -8,11 +8,11 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number >= 100 & number < 1000)
 {
-    int res = number / 10;
-    int res1 = res % 10;
-    Console.WriteLine($"Вторая цифра числа {number} - {res1}");
+  int res = number / 10;
+  int res1 = res % 10;
+  Console.WriteLine($"Вторая цифра числа {number} - {res1}");
 }
 else
 {
-    Console.WriteLine("Введено некорректное число");
+  Console.WriteLine("Введено некорректное число");
 }

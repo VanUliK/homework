@@ -15,17 +15,17 @@ double point2 = (k1 * b2 - k2 * b1) / (k1 - k2);
 
 if (k1 != k2)
 {
-    Console.WriteLine("");
-    Console.WriteLine($"прямые имеют точку пересечения ({point1:f2} ; {point2:f2})");
+  Console.WriteLine("");
+  Console.WriteLine($"прямые имеют точку пересечения ({point1:f2} ; {point2:f2})");
 }
 else
 {
-    if (b1 == b2)
-    {
-        Console.WriteLine("прямые совпадают, а не являются параллельными");
-    }
-    else
-    {
-        Console.WriteLine("прямые параллельны");
-    }
+  if (b1 == b2)
+  {
+    Console.WriteLine("прямые совпадают, а не являются параллельными");
+  }
+  else
+  {
+    Console.WriteLine("прямые параллельны");
+  }
 }

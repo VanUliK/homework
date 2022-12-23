@@ -14,24 +14,24 @@ Console.WriteLine($"Развернутый массив {string.Join(", ", arr)}
 
 int[] RandomArray(int size, int leftRange, int rightRange)
 {
-    int[] array = new int[size];
-    Random rand = new Random();
+  int[] array = new int[size];
+  Random rand = new Random();
 
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = rand.Next(leftRange, rightRange + 1);
-    }
+  for (int i = 0; i < array.Length; i++)
+  {
+    array[i] = rand.Next(leftRange, rightRange + 1);
+  }
 
-    return array;
+  return array;
 }
 
 void ReverseArray(int[] array)
 {
-    for (int i = 0; i < array.Length / 2; i++)
-    {
-        int temp = array[i];
-        array[i] = array[array.Length - 1 - i];
-        array[array.Length - 1 - i] = temp;
-    }
+  for (int i = 0; i < array.Length / 2; i++)
+  {
+    int temp = array[i];
+    array[i] = array[array.Length - 1 - i];
+    array[array.Length - 1 - i] = temp;
+  }
 }
 

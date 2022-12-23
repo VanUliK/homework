@@ -5,30 +5,30 @@
 
 int[] GetRandomArray(int size, int leftRange, int rightRange)
 {
-    int[] array = new int[size];
-    Random rand = new Random();
+  int[] array = new int[size];
+  Random rand = new Random();
 
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = rand.Next(leftRange, rightRange + 1);
-    }
+  for (int i = 0; i < array.Length; i++)
+  {
+    array[i] = rand.Next(leftRange, rightRange + 1);
+  }
 
-    return array;
+  return array;
 }
 
 //true - элемент найден, false - не найден
 bool isNumberInArray(int[] array, int findNumber)
 {
-    bool res = false; //изначально полагаем, что элемента в массиве нет
-    for (int i = 0; i < array.Length; i++)
+  bool res = false; //изначально полагаем, что элемента в массиве нет
+  for (int i = 0; i < array.Length; i++)
+  {
+    if (array[i] == findNumber)
     {
-        if (array[i] == findNumber)
-        {
-            res = true;
-            break;
-        }
+      res = true;
+      break;
     }
-    return res;
+  }
+  return res;
 }
 
 const int SIZE = 12;
@@ -41,9 +41,9 @@ Console.WriteLine(string.Join(", ", arr));
 bool result = isNumberInArray(arr, FINDNUMBER);
 if (result == true)
 {
-    Console.WriteLine("Да");
+  Console.WriteLine("Да");
 }
 else
 {
-    Console.WriteLine("Нет");
+  Console.WriteLine("Нет");
 }

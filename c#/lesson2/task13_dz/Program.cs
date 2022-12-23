@@ -9,35 +9,35 @@ int digitIndex = 2; // индекс нужной цифры
 
 if (number < 0)
 {
-    number = -number;
+  number = -number;
 }
 
 // Первый вариант решения
 
 if (number > 100)
 {
-    int digit = number.ToString()[digitIndex] - '0';
-    Console.WriteLine("Третья цифра " + digit + " //первым способом");
+  int digit = number.ToString()[digitIndex] - '0';
+  Console.WriteLine("Третья цифра " + digit + " //первым способом");
 }
 else
 {
-    Console.WriteLine($"Во введенном числе {number} нет третьей цифры");
+  Console.WriteLine($"Во введенном числе {number} нет третьей цифры");
 }
 
 // Второй вариант решения
 
 if (number > 100)
 {
-    while (number >= 1000)
-    {
-        number /= 10;   // number = number / 10;
-    }
-    int res = number % 10;
-    Console.WriteLine("Третья цифра " + res + " //вторым способом");
+  while (number >= 1000)
+  {
+    number /= 10;   // number = number / 10;
+  }
+  int res = number % 10;
+  Console.WriteLine("Третья цифра " + res + " //вторым способом");
 }
 else
 {
-    Console.WriteLine($"Во введенном числе {number} нет третьей цифры");
+  Console.WriteLine($"Во введенном числе {number} нет третьей цифры");
 }
 
 // Третий вариант решения

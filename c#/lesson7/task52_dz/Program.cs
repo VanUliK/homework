@@ -9,46 +9,46 @@
 
 int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 0, int rightRange = 9)
 {
-    int[,] matrix = new int[rowsCount, columnsCount];
-    Random rand = new Random();
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  int[,] matrix = new int[rowsCount, columnsCount];
+  Random rand = new Random();
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            matrix[i, j] = rand.Next(leftRange, rightRange + 1);
-        }
+      matrix[i, j] = rand.Next(leftRange, rightRange + 1);
     }
-    return matrix;
+  }
+  return matrix;
 }
 
 void PrintMatrix(int[,] matrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write(matrix[i, j] + " ");
-        }
-        Console.WriteLine();
+      Console.Write(matrix[i, j] + " ");
     }
+    Console.WriteLine();
+  }
 }
 
 void FindArithmeticColumnMatrix(int[,] matrix)
 {
-    double arithmeticColumns = 0;
-    double sumColumns = 0;
+  double arithmeticColumns = 0;
+  double sumColumns = 0;
 
-    for (int j = 0; j < matrix.GetLength(1); j++)
+  for (int j = 0; j < matrix.GetLength(1); j++)
+  {
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int i = 0; i < matrix.GetLength(0); i++)
-        {
-            sumColumns += matrix[i, j];
-        }
-        arithmeticColumns = sumColumns / matrix.GetLength(0);
-        Console.Write($"Сумма {j + 1} столбца = {sumColumns} ");
-        Console.WriteLine($" Среднеарифметическое = {arithmeticColumns:F2}");
-        sumColumns = 0;
+      sumColumns += matrix[i, j];
     }
+    arithmeticColumns = sumColumns / matrix.GetLength(0);
+    Console.Write($"Сумма {j + 1} столбца = {sumColumns} ");
+    Console.WriteLine($" Среднеарифметическое = {arithmeticColumns:F2}");
+    sumColumns = 0;
+  }
 }
 
 Console.WriteLine("Введите число строк");

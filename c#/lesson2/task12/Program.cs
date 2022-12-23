@@ -11,11 +11,11 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 int mod = number1 % number2;
 if (mod == 0)
 {
-    Console.Write("второе число является кратным первому");
+  Console.Write("второе число является кратным первому");
 }
 else
 {
-    
-    Console.Write("второе число не является кратным первому, остаток = " + mod);
+
+  Console.Write("второе число не является кратным первому, остаток = " + mod);
 
 }

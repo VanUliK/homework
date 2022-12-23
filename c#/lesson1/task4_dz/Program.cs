@@ -14,32 +14,32 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    if (a > c)
-    {
-        Console.WriteLine("Максимальное число " + a);
-    }
+  if (a > c)
+  {
+    Console.WriteLine("Максимальное число " + a);
+  }
 }
 else
 {
-    if (b > c)
-    {
-        Console.WriteLine("Максимальное число " + b);
-    }
-    else
-    {
-        Console.WriteLine("Максимальное число " + c);
-    }
+  if (b > c)
+  {
+    Console.WriteLine("Максимальное число " + b);
+  }
+  else
+  {
+    Console.WriteLine("Максимальное число " + c);
+  }
 }
 // второй способ
 
 int max = a;
 if (b > max)
 {
-    max = b;
+  max = b;
 }
 if (c > max)
 {
-    max = c;
+  max = c;
 }
 Console.WriteLine($"a = {a} b = {b} c = {c}");
 Console.WriteLine($"Максимальное число - {max}");

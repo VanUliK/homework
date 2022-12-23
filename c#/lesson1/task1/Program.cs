@@ -12,11 +12,11 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (b * b == a)
 {
-    Console.WriteLine("Да, является первое число квадратом второго");
+  Console.WriteLine("Да, является первое число квадратом второго");
 }
 
 else
 {
-    Console.WriteLine("Нет, не является первое число квадратом второго");
+  Console.WriteLine("Нет, не является первое число квадратом второго");
 }
 

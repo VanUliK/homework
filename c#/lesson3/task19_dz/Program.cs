@@ -41,28 +41,28 @@ int lastDigit = (number / last) % 10;
 
 if (numberLen == 4) //Если убрать проверку этого условия, то решение будет доступно для чисел от 1 до 2,147,483,647 :)
 {
-    for (int i = 1; i <= ((numberLen + 1) / 2); i++)
-    {
-        if (firstDigit == lastDigit)
-        {
-            first = first - 1;
-            last = last * 10;
-            firstDigit = (int)(number / Math.Pow(10, first) % 10);
-            lastDigit = (number / last) % 10;
-        }
-    }
+  for (int i = 1; i <= ((numberLen + 1) / 2); i++)
+  {
     if (firstDigit == lastDigit)
     {
-        Console.WriteLine("да");
+      first = first - 1;
+      last = last * 10;
+      firstDigit = (int)(number / Math.Pow(10, first) % 10);
+      lastDigit = (number / last) % 10;
     }
-    else
-    {
-        Console.WriteLine("нет");
-    }
+  }
+  if (firstDigit == lastDigit)
+  {
+    Console.WriteLine("да");
+  }
+  else
+  {
+    Console.WriteLine("нет");
+  }
 }
 else
 {
-    Console.WriteLine("Значение неверно! Введите пятизначное число!");
+  Console.WriteLine("Значение неверно! Введите пятизначное число!");
 }
 
 // //Третий вариант

@@ -12,16 +12,16 @@ int numberM = Convert.ToInt32(Console.ReadLine());
 
 if (numberM > numberN)
 {
-    Console.WriteLine("Число M не может быть больше N");
+  Console.WriteLine("Число M не может быть больше N");
 }
 else
 {
-    PrintNumbersToN(numberN, numberM);
+  PrintNumbersToN(numberN, numberM);
 }
 
 void PrintNumbersToN(int n, int m)
 {
-    if (n < m) return;
-    PrintNumbersToN(n - 1, m);
-    Console.Write(n + " ");
+  if (n < m) return;
+  PrintNumbersToN(n - 1, m);
+  Console.Write(n + " ");
 }

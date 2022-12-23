@@ -11,9 +11,9 @@ int c = int.Parse(Console.ReadLine()!);
 
 if (a < b + c && b < c + a && c < a + b)
 {
-    Console.WriteLine("Да");
+  Console.WriteLine("Да");
 }
 else
 {
-    Console.WriteLine("Нет");
+  Console.WriteLine("Нет");
 }

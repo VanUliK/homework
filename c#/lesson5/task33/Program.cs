@@ -16,21 +16,21 @@ bool res = false;
 
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = rand.Next(-9, 10);
-    if (array[i] == number)
-    {
-        res = true;
-    }
+  array[i] = rand.Next(-9, 10);
+  if (array[i] == number)
+  {
+    res = true;
+  }
 }
 
 Console.WriteLine(string.Join(", ", array));
 
 if (res == true)
 {
-    Console.WriteLine("Да");
+  Console.WriteLine("Да");
 }
 else
 {
-    Console.WriteLine("Нет");
+  Console.WriteLine("Нет");
 }
 

@@ -10,7 +10,7 @@ int counter = -N;
 
 while (counter <= N)
 {
-    Console.Write(counter++ + " ");
-    // Console.Write(counter + " ");
-    // counter++;
+  Console.Write(counter++ + " ");
+  // Console.Write(counter + " ");
+  // counter++;
 }

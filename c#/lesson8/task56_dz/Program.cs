@@ -12,28 +12,28 @@
 */
 int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 0, int rightRange = 10)
 {
-    int[,] matrix = new int[rowsCount, columnsCount];
-    Random rand = new Random();
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  int[,] matrix = new int[rowsCount, columnsCount];
+  Random rand = new Random();
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            matrix[i, j] = rand.Next(leftRange, rightRange + 1);
-        }
+      matrix[i, j] = rand.Next(leftRange, rightRange + 1);
     }
-    return matrix;
+  }
+  return matrix;
 }
 
 void PrintMatrix(int[,] matrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write(matrix[i, j] + " ");
-        }
-        Console.WriteLine();
+      Console.Write(matrix[i, j] + " ");
     }
+    Console.WriteLine();
+  }
 }
 
 Console.WriteLine("Введите число строк");
@@ -50,18 +50,18 @@ int max = sumRow;
 int temp = 0;
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-        temp += matrix[i, j];
-        sumRow = temp;
-    }
-    temp = 0;
+  for (int j = 0; j < matrix.GetLength(1); j++)
+  {
+    temp += matrix[i, j];
+    sumRow = temp;
+  }
+  temp = 0;
 
-    if (max < sumRow)
-    {
-        max = sumRow;
-        maxLine = i + 1;
-    }
-    Console.WriteLine($"Сумма {i + 1} строки = {sumRow} ");
+  if (max < sumRow)
+  {
+    max = sumRow;
+    maxLine = i + 1;
+  }
+  Console.WriteLine($"Сумма {i + 1} строки = {sumRow} ");
 }
 Console.WriteLine($"Максимальная строка {maxLine} её сумма = {max} ");

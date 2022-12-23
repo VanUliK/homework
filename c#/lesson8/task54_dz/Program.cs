@@ -14,29 +14,29 @@ Console.Clear();
 
 int[,] FillMatrix(int rowsCount, int columnsCount, int leftRange = 0, int rightRange = 9)
 {
-    int[,] matrix = new int[rowsCount, columnsCount];
+  int[,] matrix = new int[rowsCount, columnsCount];
 
-    Random rand = new Random();
+  Random rand = new Random();
 
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            matrix[i, j] = rand.Next(leftRange, rightRange + 1);
-        }
+      matrix[i, j] = rand.Next(leftRange, rightRange + 1);
     }
-    return matrix;
+  }
+  return matrix;
 }
 void PrintMatrix(int[,] matrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write(matrix[i, j] + " ");
-        }
-        Console.WriteLine();
+      Console.Write(matrix[i, j] + " ");
     }
+    Console.WriteLine();
+  }
 }
 
 Console.WriteLine("Введите число строк");
@@ -47,21 +47,21 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 void InvertMatrix(int[,] matrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
+      for (int k = 0; k < matrix.GetLength(1) - 1; k++)
+      {
+        if (matrix[i, k] < matrix[i, k + 1])
         {
-            for (int k = 0; k < matrix.GetLength(1) - 1; k++)
-            {
-                if (matrix[i, k] < matrix[i, k + 1])
-                {
-                    int temp = matrix[i, k + 1];
-                    matrix[i, k + 1] = matrix[i, k];
-                    matrix[i, k] = temp;
-                }
-            }
+          int temp = matrix[i, k + 1];
+          matrix[i, k + 1] = matrix[i, k];
+          matrix[i, k] = temp;
         }
+      }
     }
+  }
 }
 
 int[,] matrix = FillMatrix(m, n);

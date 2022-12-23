@@ -16,17 +16,17 @@ int number = array.Length;
 
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = rand.Next(1, 10);
+  array[i] = rand.Next(1, 10);
 }
 Console.WriteLine(string.Join(", ", array));
 
 for (int i = 0; i < arrayResult.Length; i++)
 {
-    arrayResult[i] = array[i] * array[array.Length - 1 - i];
+  arrayResult[i] = array[i] * array[array.Length - 1 - i];
 }
 if (array.Length % 2 != 0)
 {
-    arrayResult[arrayResult.Length - 1] = array[array.Length / 2];
+  arrayResult[arrayResult.Length - 1] = array[array.Length / 2];
 }
 Console.WriteLine("Произведение пар чисел:");
 Console.WriteLine(string.Join(", ", arrayResult));

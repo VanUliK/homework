@@ -14,13 +14,13 @@ int num1;
 
 while (number > 10)
 {
-    num1 = number % 10;
-    sum = sum + num1;
-    number = number / 10;
+  num1 = number % 10;
+  sum = sum + num1;
+  number = number / 10;
 }
-if (number<10)
+if (number < 10)
 {
-    res = sum + number;
+  res = sum + number;
 }
 
 Console.WriteLine($"Сумма цифр во введенном числе {number} = {res}");

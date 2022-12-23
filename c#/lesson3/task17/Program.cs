@@ -4,25 +4,25 @@
 
 int GetNumberOfPlane(double x, double y)
 {
-    int numberOfPlane = 0;
+  int numberOfPlane = 0;
 
-    if (x > 0 && y > 0)
-    {
-        numberOfPlane = 1;
-    }
-    if (x < 0 && y > 0)
-    {
-        numberOfPlane = 2;
-    }
-    if (x < 0 && y < 0)
-    {
-        numberOfPlane = 3;
-    }
-    if (x > 0 && y < 0)
-    {
-        numberOfPlane = 4;
-    }
-    return numberOfPlane;
+  if (x > 0 && y > 0)
+  {
+    numberOfPlane = 1;
+  }
+  if (x < 0 && y > 0)
+  {
+    numberOfPlane = 2;
+  }
+  if (x < 0 && y < 0)
+  {
+    numberOfPlane = 3;
+  }
+  if (x > 0 && y < 0)
+  {
+    numberOfPlane = 4;
+  }
+  return numberOfPlane;
 }
 
 Console.WriteLine("Введите координаты по x");

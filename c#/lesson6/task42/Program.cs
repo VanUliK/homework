@@ -7,12 +7,12 @@
 
 void ReverseArray(int[] array)
 {
-    for (int i = 0; i < array.Length / 2; i++)
-    {
-        int temp = array[i];
-        array[i] = array[array.Length - 1 - i];
-        array[array.Length - 1 - i] = temp;
-    }
+  for (int i = 0; i < array.Length / 2; i++)
+  {
+    int temp = array[i];
+    array[i] = array[array.Length - 1 - i];
+    array[array.Length - 1 - i] = temp;
+  }
 }
 
 Console.WriteLine("Введите число");
@@ -22,8 +22,8 @@ int[] array = new int[size];
 
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = number % 2;
-    number = number / 2;
+  array[i] = number % 2;
+  number = number / 2;
 }
 
 ReverseArray(array);
@@ -38,9 +38,9 @@ GetBinaryView(num);
 
 void GetBinaryView(int N)
 {
-    if (N <= 0) return;
-    GetBinaryView(N / 2);
-    Console.Write(N % 2);
+  if (N <= 0) return;
+  GetBinaryView(N / 2);
+  Console.Write(N % 2);
 }
 Console.WriteLine();
 
@@ -48,15 +48,15 @@ Console.WriteLine();
 
 string check(int n)
 {
-    string? result = " ";
-    // string result = string.Empty;
-    while (n > 0)
-    {
-        int x = n % 2;
-        result = Convert.ToString(x) + result;
-        n /= 2;
-    }
-    return result;
+  string? result = " ";
+  // string result = string.Empty;
+  while (n > 0)
+  {
+    int x = n % 2;
+    result = Convert.ToString(x) + result;
+    n /= 2;
+  }
+  return result;
 }
 
 Console.WriteLine("Введите число");

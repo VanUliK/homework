@@ -5,24 +5,24 @@
 
 void PrintNumberOfPlane(int numberOfPlane)
 {
-    if (numberOfPlane == 1)
-    {
-        Console.WriteLine("x > 0, y > 0");
-    }
-    else if (numberOfPlane == 2)
-    {
-        Console.WriteLine("x < 0, y > 0");
-    }
-    else if (numberOfPlane == 3)
-    {
-        Console.WriteLine("x < 0, y < 0");
-    }
-    else if (numberOfPlane == 4)
-    {
-        Console.WriteLine("x > 0, y < 0");
-    }
-    else
-        Console.WriteLine("Введен некорректный номер четверти");
+  if (numberOfPlane == 1)
+  {
+    Console.WriteLine("x > 0, y > 0");
+  }
+  else if (numberOfPlane == 2)
+  {
+    Console.WriteLine("x < 0, y > 0");
+  }
+  else if (numberOfPlane == 3)
+  {
+    Console.WriteLine("x < 0, y < 0");
+  }
+  else if (numberOfPlane == 4)
+  {
+    Console.WriteLine("x > 0, y < 0");
+  }
+  else
+    Console.WriteLine("Введен некорректный номер четверти");
 }
 
 Console.WriteLine("Номер координатной четверти");

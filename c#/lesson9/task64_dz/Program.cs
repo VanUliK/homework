@@ -13,7 +13,7 @@ PrintNumbersToN(number);
 
 void PrintNumbersToN(int n)
 {
-    if (n < 1) return;
-    Console.Write(n + " ");
-    PrintNumbersToN(n - 1);
+  if (n < 1) return;
+  Console.Write(n + " ");
+  PrintNumbersToN(n - 1);
 }

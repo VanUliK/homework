@@ -8,8 +8,8 @@ int counter = 2;
 
 while (counter <= N)
 {
-    Console.Write(counter + " ");
-    counter = counter + 2;
+  Console.Write(counter + " ");
+  counter = counter + 2;
 }
 
 // Console.Write("Введите 1е число > ");                  // Вывод приглашения ввода

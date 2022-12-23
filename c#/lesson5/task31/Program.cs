@@ -8,17 +8,17 @@ int sumP = 0; // sum positive
 int sumN = 0; // sum negative
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = rand.Next(-9, 10);
-    if (array[i] > 0)
-    {
-        // sumP = sumP + array[i];
-        sumP += array[i];
-    }
-    else
-    {
-        // sumN = sumN + array[i];
-        sumN += array[i];
-    }
+  array[i] = rand.Next(-9, 10);
+  if (array[i] > 0)
+  {
+    // sumP = sumP + array[i];
+    sumP += array[i];
+  }
+  else
+  {
+    // sumN = sumN + array[i];
+    sumN += array[i];
+  }
 }
 Console.WriteLine(string.Join(", ", array));
 Console.WriteLine($"сумма положительных чисел = {sumP}");

@@ -10,6 +10,6 @@ double N = Convert.ToDouble(Console.ReadLine());
 
 for (int i = 1; i <= N; i++)
 {
-    double result = Math.Pow(i, 3);
-    Console.WriteLine(result);
+  double result = Math.Pow(i, 3);
+  Console.WriteLine(result);
 }

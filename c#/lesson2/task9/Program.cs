@@ -10,19 +10,19 @@ int number = rand.Next(11, 23);
 Console.WriteLine(number);
 int digit2 = number % 10;
 int digit1 = number / 10;
-if (digit1>digit2)
+if (digit1 > digit2)
 {
-    Console.Write(digit1);
-      Console.WriteLine(" наибольшая цифра");
+  Console.Write(digit1);
+  Console.WriteLine(" наибольшая цифра");
 }
-else if (digit2>digit1)
+else if (digit2 > digit1)
 {
-    Console.Write(digit2);
-      Console.WriteLine(" наибольшая цифра");
+  Console.Write(digit2);
+  Console.WriteLine(" наибольшая цифра");
 }
 else
 {
-    Console.Write("Цифры равны");
+  Console.Write("Цифры равны");
 }
-  
+
 
